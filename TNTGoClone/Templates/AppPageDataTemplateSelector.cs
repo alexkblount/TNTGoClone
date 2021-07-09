@@ -1,7 +1,8 @@
 ﻿using System;
 using TNTGoClone.ContentViews;
 using TNTGoClone.Models;
-using Xamarin.Forms;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 
 namespace TNTGoClone.Templates
 {

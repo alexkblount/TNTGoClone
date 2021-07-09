@@ -1,6 +1,7 @@
 ﻿using TNTGoClone.Models;
 using TNTGoClone.ViewModels;
-using Xamarin.Forms;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 using System.Linq;
 using System;
 
@@ -23,7 +24,7 @@ namespace TNTGoClone.Views
 				ChangeState(stackLayout, "Selected");
 		}
 
-        void CarouselView_CurrentItemChanged(System.Object sender, Xamarin.Forms.CurrentItemChangedEventArgs e)
+        void CarouselView_CurrentItemChanged(System.Object sender, CurrentItemChangedEventArgs e)
         {
 			if (e.CurrentItem is AppPage currentItem)
 			{

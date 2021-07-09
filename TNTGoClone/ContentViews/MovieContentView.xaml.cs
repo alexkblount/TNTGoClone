@@ -1,7 +1,8 @@
 ﻿using System.Threading.Tasks;
 using TNTGoClone.Models;
 using TNTGoClone.ViewModels;
-using Xamarin.Forms;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 
 namespace TNTGoClone.ContentViews
 {
