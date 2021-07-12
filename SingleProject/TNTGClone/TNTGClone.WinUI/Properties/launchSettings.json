@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "TNTGClone.WinUI": {
+      "commandName": "AppContainer"
+    }
+  }
+}
