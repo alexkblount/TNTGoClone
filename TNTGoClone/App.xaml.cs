@@ -11,8 +11,6 @@ namespace TNTGoClone
 		public App()
 		{
 			InitializeComponent();
-
-			MainPage = new MainView();
 		}
 
 		protected override Window CreateWindow(IActivationState activationState)
